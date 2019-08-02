@@ -5,3 +5,6 @@ spring:
     circuit:
       breaker:
         enabled: true
+feign:
+  httpclient:
+    enabled: true

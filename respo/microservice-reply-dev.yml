@@ -24,3 +24,6 @@ spring:
   jackson:
     serialization:
       write-dates-as-timestamps: true
+feign:
+  httpclient:
+    enabled: true
