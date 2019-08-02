@@ -6,5 +6,7 @@ spring:
       breaker:
         enabled: true
 feign:
+  hystrix:
+    enabled: true
   httpclient:
     enabled: true

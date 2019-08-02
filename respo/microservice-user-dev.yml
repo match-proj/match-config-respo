@@ -25,5 +25,7 @@ spring:
     serialization:
       write-dates-as-timestamps: true
 feign:
+  hystrix:
+    enabled: true
   httpclient:
     enabled: true
