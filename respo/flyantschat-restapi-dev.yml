@@ -1,5 +1,7 @@
 server:
   port: 8000
 feign:
+  hystrix:
+    enabled: true
   httpclient:
     enabled: true
