@@ -1,12 +1,5 @@
 server:
   port: 8000
-spring:
-  cloud:
-    circuit:
-      breaker:
-        enabled: true
 feign:
-  hystrix:
-    enabled: true
   httpclient:
     enabled: true
