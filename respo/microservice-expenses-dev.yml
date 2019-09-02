@@ -1,8 +1,6 @@
 server:
   port: 7005
 spring:
-  profiles:
-    include: microservice-common
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/match_expenses?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&failOverReadOnly=false&autoReconnect=true&roundRobinLoadBalance=true&useSSL=false
